@@ -17,6 +17,7 @@ The editor needs to live in the Root folder of your Adapt application.
 In the Editor folder run:
 
 ```npm install```
+
 ```npm start```
 
 Please note when running for the first time, the Editor will try to detect the Editor Adapt Extension, it wil auto install this for you at runtime.
