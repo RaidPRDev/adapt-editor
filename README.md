@@ -8,6 +8,7 @@ Further features to be added:
 * Ability to detect other json files from other extensions
 * Be able to launch the app in its own tab without the Editor.
 * Better GRUNT build detection and features
+* Update the UI experience a bit
 
 
 ## setup
