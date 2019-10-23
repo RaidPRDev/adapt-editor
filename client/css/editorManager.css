@@ -1,0 +1,92 @@
+.editor-nav {
+     width: auto;
+     height: auto;
+     padding: 4px;
+     background-color: grey;
+}
+
+.editor-body {
+	 display: flex;
+}
+
+/*  BUTTON        */
+.editor-button {
+     font-family: Arial;
+     background-color: #1e90ff;
+     width: 400px;
+     height: auto;
+     border: 1px solid transparent;
+     color: white;
+     padding: 8px 16px;
+     cursor: pointer;
+     font-size: 15px;
+}
+
+.disable-button {
+     pointer-events: none;
+     background-color: #1b81e5;
+     /*opacity: 0.5;*/
+}
+
+.editor-button:hover {
+     background-color: #1b81e5;
+}
+
+/*  SELECT DROPDOWN        */
+.editor-select {
+     position: relative;
+     font-family: Arial;
+     width: 200px;
+     display: inline-block;
+     background-color: #1e90ff;
+     font-size: 15px;
+}
+
+.editor-select  select {
+     display: none;
+}
+
+.select-selected {
+
+}
+
+.select-selected:after {
+     position: absolute;
+     content: "";
+     top: 14px;
+     right: 10px;
+     width: 0;
+     height: 0;
+     border: 6px solid transparent;
+     border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+     border-color: transparent transparent #fff transparent;
+     top: 7px;
+}
+
+.select-items div, .select-selected {
+     color: #ffffff;
+     padding: 8px 16px;
+     border: 1px solid transparent;
+     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+     cursor: pointer;
+}
+
+.select-items {
+     position: absolute;
+     background-color: #1e90ff;
+     top: 100%;
+     left: 0;
+     right: 0;
+     z-index: 99;
+}
+
+.select-hide {
+     display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+     background-color: rgba(0, 0, 0, 0.1);
+}

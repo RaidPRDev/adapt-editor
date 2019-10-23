@@ -1,0 +1,29 @@
+{
+    "name": "editor",
+    "version": "1.0.0",
+    "description": "Adapt Editor",
+    "comment": "",
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "scripts": {
+        "start": "node editor.js",
+        "dev": "nodemon editor.js",
+        "adapt-build": "(cd .. && grunt build)",
+        "adapt-reset": "(cd .. && grunt tracking-reset)"
+    },
+    "license": "GPL-3.0",
+    "dependencies": {
+        "copy-dir": "^1.2.0",
+        "express": "*",
+        "jsoneditor": "^7.0.1"
+    },
+    "devDependencies": {
+        "jquery": "^3.4.1",
+        "jsonfile": "^5.0.0",
+        "nodemon": "^1.19.1",
+        "open": "^6.4.0",
+        "socket.io": "^2.2.0"
+    }
+}
