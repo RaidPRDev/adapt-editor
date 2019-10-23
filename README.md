@@ -20,6 +20,7 @@ In the Editor folder run:
 ## Todos
 
 Further features to be added:
+* Hot reloading
 * More debug tools
 * Ability to detect other json files from other extensions
 * Be able to launch the app in its own tab without the Editor.
